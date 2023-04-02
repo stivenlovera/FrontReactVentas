@@ -21,4 +21,4 @@ dotnet build
 dotnet publish --arch x64 --output c:\inetpub\wwwroot\netCoreFront
 ## en windos en gitbash
 
-dotnet publish --arch x64 --output /c/inetpub/wwwroot/netCoreFront
+dotnet publish --arch x64 --output /var/www/web-ventas-demo
