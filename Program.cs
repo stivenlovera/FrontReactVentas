@@ -15,6 +15,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+else
+{
+    app.Run("http://localhost:5000");
+}
 
 app.UseStaticFiles();
 app.UseRouting();
