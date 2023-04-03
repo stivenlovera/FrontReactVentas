@@ -15,10 +15,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-else
-{
-    app.Run("http://localhost:5000");
-}
 
 app.UseStaticFiles();
 app.UseRouting();
@@ -35,4 +31,4 @@ app.UseEndpoints(endpoints =>
     endpoints.MapFallbackToFile("/index.html");
 });
 
-app.Run();
+app.Run("http://localhost:5000");
